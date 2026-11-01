@@ -30,11 +30,13 @@ solicita a instalação local. Não usa conta GitHub nem guarda senha ou token.
 
 O componente 0.1.0 da release 0.0.37 falhou no teste de instalação. A 0.1.1 usa
 o comando Samsung `vd_appinstall` e o protocolo SDB SYNC. Esses mesmos módulos
-confirmaram uma instalação assistida na TV; o percurso autônomo está em validação.
+confirmaram uma instalação assistida na TV. Em 01/11/2026, o proprietário também
+confirmou a atualização **0.0.37 → 0.0.38 pela própria TV**, com o atualizador 0.1.1
+e Host PC IP = 127.0.0.1, sem computador na instalação.
 
 Base de desenvolvimento: Samsung QN50Q60DAGXZD, Tizen 9.0, firmware
-T-NKLDUABC-0090-2123.9. O fluxo autônomo completo ainda depende de validação
-física. O teste de root temporário foi confirmado nesse aparelho; o atualizador
+T-NKLDUABC-0090-2123.9. A validação física citada se limita a esse aparelho e
+firmware. O teste de root temporário foi confirmado nesse aparelho; o atualizador
 publicado usa o canal local de instalação do Developer Mode.
 
 Esses arquivos atualizam o aplicativo WDA, sem substituir o firmware da TV.
