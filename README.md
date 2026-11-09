@@ -4,10 +4,10 @@ Canal público de pacotes e atualizações do WDA Multiplay para Samsung TV.
 
 **[Versões e downloads](https://github.com/navygod/WDA-MultiPlay-Tizen-Releases/releases/latest)**
 
-Na página da versão, abra **Assets**. A release 0.0.38 contém:
+Na página da versão, abra **Assets**. A release 0.0.40 contém:
 
-- `WDA-Multiplay-0.0.38.tpk`: aplicativo da Samsung TV.
-- `WDA-Atualizacoes-0.1.1.wgt`: componente de atualização corrigido.
+- `WDA-Multiplay-0.0.40.tpk`: aplicativo com relógio de Brasília ao lado do nome no painel de botões.
+- `WDA-Atualizacoes-0.1.3.wgt`: componente de atualização com retorno ao WDA pelo botão Voltar.
 - `stable.json`: manifesto assinado consultado pela TV.
 - `SHA256SUMS.txt`: hashes dos pacotes.
 
@@ -18,7 +18,7 @@ O canal Android é independente.
 ## Atualizar na TV
 
 A preparação inicial instala o aplicativo `.tpk` e o componente
-`WDA-Atualizacoes-0.1.1.wgt`, mantendo a identidade do aplicativo existente.
+`WDA-Atualizacoes-0.1.3.wgt`, mantendo a identidade do aplicativo existente.
 São pacotes de desenvolvimento: a TV precisa estar autorizada no certificado
 Samsung utilizado para assiná-los. Não há confirmação de compatibilidade geral
 nem publicação na loja Samsung.
